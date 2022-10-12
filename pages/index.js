@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Nav from '../components/nav'
 import Header from '../components/header'
 import About from '../components/about'
@@ -11,7 +10,7 @@ import Contact from '../components/contact'
 import Footer from '../components/footer'
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>siyabuddeen|full stack developer</title>
         <meta name="description" content="hello i am siyabuddeen full stack developer i am from mangalore,karnataka" />
