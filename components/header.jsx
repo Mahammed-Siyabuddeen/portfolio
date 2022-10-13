@@ -9,13 +9,13 @@ function header() {
   return (
     <header className={style.header}>
       <div className={`container  ${style.container}`}>
-        <h5>Hello  I'm</h5>
+        <h5>Hello  I&lsquo;m</h5>
         <h1>Siyabuddeen</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <div className={style.cta}>
           <a className="btn" href={'/assets/cv.pdf'} >Download CV</a>
           <a href={'#contact'}><span className="btn btn-primary">
-            Let's Talk
+            Let&lsquo;s Talk
           </span></a>
         </div>
         <a href={'#contact'}className={style.scrollDown}>Scroll Down</a>

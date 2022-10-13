@@ -25,7 +25,7 @@ function about() {
             </div>
           </div>
           <p className={style.para}>Hello, I am Siyabuddeen full stack developer, having 2+ years of experience. I am from Mangalore, Karnataka. My educational background in computer science </p>
-          <button className='btn btn-primary'>Let's talk</button>
+          <button className='btn btn-primary'>Let &apos;s talk</button>
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import emailjs from '@emailjs/browser'
 import Link from 'next/link';
-function contact() {
+function Contact() {
   const formRef=useRef();
   const sendEmail=(e)=>{
     e.preventDefault();
@@ -44,4 +44,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact
