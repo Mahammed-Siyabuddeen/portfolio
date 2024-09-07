@@ -7,24 +7,34 @@ function portfolio() {
       <h2>Portfolio</h2>
 
       <div className={style.container}>
+      <article className={style.item}>
+          <div className={style.itemImage}>
+            <img src={'/assets/portfolio1.webp'}/>
+          </div>
+          <h3 className={style.h3}>E-Commerce Application</h3>
+          <div className={style.btn}>
+          <a href="https://github.com/Mahammed-Siyabuddeen/whatsapp-frontend" className='btn btn-primary'>Github</a>
+          <a href="https://chat.pair-care.live" title="chat.pair-care.live" className='btn'  >Live Demo</a>
+          </div>
+        </article>
         <article className={style.item}>
           <div className={style.itemImage}>
             <img src={'/assets/portfolio1.webp'}/>
           </div>
-          <h3 className={style.h3}>Whatsapp Clone</h3>
+          <h3 className={style.h3}>Whatsapp Web Application</h3>
           <div className={style.btn}>
           <a href="https://github.com/Mahammed-Siyabuddeen/whatsapp-frontend" className='btn btn-primary'>Github</a>
-          <a href="https://whatsapp-clone-shihab.netlify.app/"className='btn'  >Live Demo</a>
+          <a href="https://chat.pair-care.live" title="chat.pair-care.live" className='btn'  >Live Demo</a>
           </div>
         </article>
         <article className={style.item}>
           <div className={style.itemImage}>
             <img src={'/assets/portfolio2.png'}/>
           </div>
-          <h3 className={style.h3}>Nextflix Clone</h3>
+          <h3 className={style.h3}>Nextflix Feature Development</h3>
           <div className={style.btn}>
           <a href="https://github.com/Mahammed-Siyabuddeen/netflixm" className='btn btn-primary'>Github</a>
-          <a href="https://netflixshihab.netlify.app/" className='btn' >Live Demo</a>
+          <a href="https://chill.pair-care.live" title='chill.pair-care.live' className='btn' >Live Demo</a>
           </div>
         </article>
         <article className={style.item}>
